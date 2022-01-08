@@ -1,10 +1,30 @@
 #main-app {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
   font-family: "Courier New", Courier, monospace;
 }
 
 #main-app-body {
-  margin: 13rem 0rem 0rem 30rem;
-
+  position: relative;
   display: flex;
-  padding: 1rem;
+  flex-direction: row;
+  height: 100%;
+}
+
+#sidebar-container {
+  width: 10%;
+}
+#introduction-container {
+  margin-left: 15rem;
+  margin-top: 12.5rem;
+  width: 70%;
+}
+#nav-bar-container {
+  margin-top: 1rem;
+  width: 20%;
+}
+
+#sidebar {
+  margin-top: 20rem;
 }

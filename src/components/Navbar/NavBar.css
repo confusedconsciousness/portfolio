@@ -1,25 +1,19 @@
 #nav-bar {
   display: flex;
-  flex-direction: row;
-  height: 4rem;
-  background-color: #efefef;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-#logo {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bolder;
-  font-size: 2rem;
-  margin-top: 0.4rem;
-}
-
-#resume-button {
-  display: table;
-  position: absolute;
-  right: 1rem;
+#nav-bar-stack .tag {
+  font-size: 1rem;
   font-family: "Courier New", Courier, monospace;
   text-transform: lowercase;
-  margin: 0.75rem 0.5rem 0 0;
   color: black;
+}
+
+#nav-bar .divider {
+  justify-content: center;
   border-color: black;
+  border-right-width: 0.2rem;
+  height: 10rem;
 }

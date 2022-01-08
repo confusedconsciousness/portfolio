@@ -1,15 +1,26 @@
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 
-import NavBar from "./components/Navbar/NavBar";
+import Header from "./components/Header/Header";
 import Introduction from "./components/Introduction/Introduction";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Navbar from "./components/Navbar/Navbar";
+import { Container } from "@mui/material";
 function App() {
   return (
     <Router>
       <div id="main-app">
-        <NavBar />
+        <Header />
         <div id="main-app-body">
-          <Introduction />
+          <Container id="sidebar-container">
+            <Sidebar id="sidebar" />
+          </Container>
+          <Container id="introduction-container">
+            <Introduction />
+          </Container>
+          <Container id="nav-bar-container">
+            <Navbar />
+          </Container>
         </div>
       </div>
     </Router>
