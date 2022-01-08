@@ -1,0 +1,30 @@
+#introduction {
+  max-width: 600px;
+}
+#introduction .tag {
+  font-size: 0.75rem;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 0.5rem;
+}
+
+#beginning-intro {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 0.5rem;
+}
+
+#name {
+  margin-left: 1rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 0.5rem;
+}
+
+#detailed-information {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 0.5rem;
+}
