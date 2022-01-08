@@ -1,0 +1,22 @@
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#social-icon-stack {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#social-icon-stack .social-icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem;
+}
+
+#sidebar .divider {
+  justify-content: center;
+  border-color: black;
+  border-right-width: 0.2rem;
+  height: 12rem;
+}
