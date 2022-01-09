@@ -5,11 +5,21 @@ export default function Navbar() {
     <div id="nav-bar">
       <Divider className="divider" orientation="vertical" />
       <Stack id="nav-bar-stack" spacing={2}>
-        <Button className="tag">{"<About Me/>"}</Button>
-        <Button className="tag">{"<Experience/>"}</Button>
-        <Button className="tag">{"<Skills/>"}</Button>
-        <Button className="tag">{"<Work/>"}</Button>
-        <Button className="tag">{"<Contact/>"}</Button>
+        <Button href="/" className="tag">
+          {"<About Me/>"}
+        </Button>
+        <Button href="#experience" className="tag">
+          {"<Experience/>"}
+        </Button>
+        <Button href="#skills" className="tag">
+          {"<Skills/>"}
+        </Button>
+        <Button href="#work" className="tag">
+          {"<Work/>"}
+        </Button>
+        <Button href="#contact" className="tag">
+          {"<Contact/>"}
+        </Button>
       </Stack>
     </div>
   );
