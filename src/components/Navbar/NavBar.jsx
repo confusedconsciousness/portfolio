@@ -1,5 +1,5 @@
 import { Stack, Button, Divider } from "@mui/material";
-import "./Navbar.css";
+import "./Navbar.scss";
 export default function Navbar() {
   return (
     <div id="nav-bar">

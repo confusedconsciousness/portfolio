@@ -3,23 +3,28 @@
   flex-direction: row;
   height: 4rem;
   background-color: #efefef;
+  align-items: center;
   justify-content: center;
 }
 
-#logo {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bolder;
-  font-size: 2rem;
-  margin-top: 0.4rem;
+#main-logo {
+  width: 5rem;
+  height: 5rem;
 }
 
 #resume-button {
   display: table;
   position: absolute;
-  right: 1rem;
+  right: 4rem;
   font-family: "Courier New", Courier, monospace;
   text-transform: lowercase;
-  margin: 0.75rem 0.5rem 0 0;
+  margin: 0 0.5rem 0 0;
   color: black;
   border-color: black;
+}
+
+#resume-button:hover {
+  font-weight: bold;
+  color: white;
+  background-color: black;
 }
